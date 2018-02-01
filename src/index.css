@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.login-div {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #5089de;
+  height: 50%;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.login-div > h1 {
+  font-size: 60px;
+  color: white;
+  margin: 0 auto 15px auto;
+}
+
+.login-div > button {
+  width: 200px;
+  margin-left: 25px;
+  background-color: #5089de;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+.login-div > button:hover {
+  background-color: white;
+  color: #5089de;
+}
+
+.index-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px 0 15px;
+}
+
+.block-container {
+  margin-top: 7px;
+  border: 2px solid #ababab;
+  border-radius: 5px;
+}
+
+.block-btn {
+  margin-top: 3px;
+}
+
+#add-btn {
+  background-color: #5089de;
+}
+
+#del-btn {
+  background-color: #e82215;
+}
+
+#back-btn {
+  background-color: #5089de;
+}
+
+#edit-btn {
+  background-color: #19bb05;
+}
+
+#tag-btn {
+  background-color: #5089de;
+  margin-left: 25px
+}
+
+.snippet-form {
+  width: 400px;
+}
+
+.snippet-name {
+  width: 300px !important;
+  margin-left: 50px;
+}
+
+#view-tags {
+  margin-left: 65px;
+}
+
+.create-settings {
+  display: flex;
+  flex-direction: row;
+}
+
+#tag {
+  width: 150px !important;
+  height: 30px !important;
+}
+
+.lang-dd {
+  position: absolute;
+  right: 25px;
+  width: 100px !important;
+}
+
+.tag-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.tags {
+  background-color: #CFE0ED;
+  margin-left: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  color: #747474;
+}
+
+.tags > i {
+  margin-left: 2px;
+}
+
+.lang-list {
+  width: 25%;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 25px;
+  width: 350px
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+.list-name {
+  margin-right: 40px
+}
